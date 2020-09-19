@@ -9,7 +9,12 @@ html {
 html,body {
     height: 100%;
 }
-
+body{
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #1d2124;
+}
 button:focus{
     outline: 0;
 }
@@ -39,10 +44,17 @@ div#content:focus {
 .font-r{
     font-family: 'Roboto', sans-serif;
 }
+h1{
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #1d2124;
+}
 h3 {
     font-family: Poppins, sans-serif;
-    font-size: 22px;
-    line-height: 34px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
     font-weight: 600;
     color: #1d2124;
 }
@@ -444,30 +456,6 @@ section.tm-welcome-window.tm-welcome-slide {
     background-size: cover;
     background-position: center center;
 }
-section.tm-welcome-window.tm-welcome-slide .tm-welcome-bg-left {
-    height: 60%;
-    width: 30%;
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: auto;
-    background-position: center center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-section.tm-welcome-window.tm-welcome-slide .tm-welcome-bg-right {
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
-    left: auto;
-    right: 0;
-    top: 0;
-    background-position: center left;
-    background-size: cover;
-}
 .tm-welcome-slide-flex.tm-welcome-caption {
     height: 100%;
     width: 100%;
@@ -488,20 +476,12 @@ section.tm-welcome-window.tm-welcome-slide .tm-welcome-bg-right {
 }
 
 .tm-welcome-slide-flex.tm-welcome-caption .text-caption h1 {
-    font-weight: 700;
-    font-size: 45px;
-    font-family: 'Poppins', sans-serif;
-    color: #1d2124;
-    line-height: 70px;
     text-align: left;
 }
-.tm-welcome-slide-flex.tm-welcome-caption .text-caption p{
-    line-height: 30px;
+.tm-welcome-slide-flex.tm-welcome-caption .text-caption p {
+    line-height: 1.8rem;
     letter-spacing: 0px;
-    font-weight: 400;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    color: #1d2124;
+    font-size: 1.2rem;
 }
 a.tm-btn-primary {
     position: relative;
