@@ -427,9 +427,7 @@ section.tm-welcome-window.tm-welcome-slide div.layer-2 {
     /* animation: shapeFly 10s linear 4s infinite alternate; */
 }
 section.tm-welcome-window.tm-welcome-slide div.layer-3 {
-    top: 30%;
-    left: 35%;
-    /* animation: shapeFly 10s linear 4s infinite alternate; */
+    transform: translate3d(415px, 175px, 0px);
 }
 section.tm-welcome-window.tm-welcome-slide div.layer-4 {
     top: 80%;
@@ -485,7 +483,7 @@ section.tm-welcome-window.tm-welcome-slide {
 }
 a.tm-btn-primary {
     position: relative;
-    border: 1px solid #5a49f8;
+    border: 1px solid transparent;
     padding: 10px 35px;
     border-radius: 4px;
     z-index: 1;
